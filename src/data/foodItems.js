@@ -1,5 +1,4 @@
-import appleGreenSmith from "../images/appleGreenSmith.png";
-import avocadoHass from "../images/avocadoHass.jpg";
+import appleGreenSmith from "./../components/images/appleGreenSmith.png";
 
 
 const foodItems = [
@@ -23,7 +22,7 @@ const foodItems = [
     total: 0,
     status: "",
     actions: "edit",
-    img: avocadoHass,
+    img: appleGreenSmith,
   },
   {
     id: 3,
@@ -118,4 +117,4 @@ const foodItems = [
 
 export default foodItems;
 
-// You now have 10 food items in the array with working image URLs.
+
